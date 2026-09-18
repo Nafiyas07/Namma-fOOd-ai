@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "user_demo_01",
+      "name": "Nafiya Consumer",
+      "email": "nafiya@foodlens.ai",
+      "password_hash": "$2b$10$nkfE3KCYXvFZUWsrmSTvoeQ0GfuECWLvsSRNngBSroTkMSdLs2W.2",
+      "preferred_language": "en",
+      "created_at": "2026-09-11T05:04:44.796Z"
+    }
+  ],
+  "analyses": [
+    {
+      "id": "ana_sample_01",
+      "user_id": "user_demo_01",
+      "image_reference": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
+      "food_name": "Hyderabadi Chicken Biryani",
+      "food_category": "Restaurant food",
+      "location": "Chennai Central",
+      "food_type": "Restaurant food",
+      "user_note": "Dine-in restaurant, freshly served in handi with visible vapor",
+      "overall_score": 84,
+      "hygiene_score": 86,
+      "visual_quality_score": 88,
+      "serving_condition_score": 79,
+      "observations": [
+        "Long grain Basmati rice grains are distinct, well-separated, and visibly un-mushy.",
+        "Garnish of fried brown onions (birista) and chopped coriander appears fresh without wilting.",
+        "Food appears actively hot based on surface moisture sheen and light visible condensation."
+      ],
+      "concerns": [
+        "Accompaniment raita bowl should be monitored for cold temperature retention."
+      ],
+      "positive_indicators": [
+        "Clean porcelain plate presentation with no greasy fingerprints or surface residue.",
+        "Even saffron coloration without artificial pooling of heavy food dye.",
+        "Tender visible chicken pieces well-coated in aromatic masala."
+      ],
+      "recommendations": [
+        "Ensure the accompanying onion raita is chilled to maintain optimal curd probiotic stability.",
+        "Consume while actively steaming to experience prime textural and culinary quality."
+      ],
+      "confidence": "High visual clarity",
+      "limitations": [
+        "Visual assessment only; internal core cooking temperature cannot be verified from photography.",
+        "Not a laboratory certification for microbial safety or spices adulteration."
+      ],
+      "created_at": "2026-09-16T05:04:44.796Z"
+    },
+    {
+      "id": "ana_sample_02",
+      "user_id": "user_demo_01",
+      "image_reference": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80",
+      "food_name": "Crispy Samosas & Mint Chutney",
+      "food_category": "Snacks",
+      "location": "T Nagar Market",
+      "food_type": "Street food",
+      "user_note": "Evening tea snack from a bustling street cart",
+      "overall_score": 71,
+      "hygiene_score": 68,
+      "visual_quality_score": 76,
+      "serving_condition_score": 69,
+      "observations": [
+        "Golden brown crust texture indicates crisp puffing with minimal oil seepage.",
+        "Serving paper plate shows slight excess grease absorption near base corner.",
+        "Chutney dispenser was kept open to ambient street air during assembly."
+      ],
+      "concerns": [
+        "Open sauce bowl exposed to ambient particulate drift near roadway traffic.",
+        "Frying oil in the background cauldron showed slight dark oxidation tint."
+      ],
+      "positive_indicators": [
+        "Crispy, golden-fried exterior without uneven charring or burning.",
+        "Served straight from warm wire draining rack rather than pre-bagged."
+      ],
+      "recommendations": [
+        "Prefer vendors who keep chutneys in squeeze bottles or covered glass containers.",
+        "Request hot batches directly from the oil strainer to ensure thermal safety."
+      ],
+      "confidence": "Moderate confidence",
+      "limitations": [
+        "Microbial load and inner potato filling freshness cannot be determined visually.",
+        "Image cannot ascertain whether frying oil meets total polar compound (TPC) thresholds."
+      ],
+      "created_at": "2026-09-17T05:04:44.796Z"
+    },
+    {
+      "id": "ana_sample_03",
+      "user_id": "user_demo_01",
+      "image_reference": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80",
+      "food_name": "Madurai Jigarthanda Special",
+      "food_category": "Beverages",
+      "location": "Madurai Famous Shop",
+      "food_type": "Traditional/local foods",
+      "user_note": "Cold dessert drink with almond gum (badam pisin) and basundi malai",
+      "overall_score": 88,
+      "hygiene_score": 89,
+      "visual_quality_score": 92,
+      "serving_condition_score": 84,
+      "observations": [
+        "Distinct layered appearance: gelatinous badam pisin foundation, rich reduced milk, and creamy malai scoop on top.",
+        "Clean glass tumbler with pristine rim and no sticky overflow down exterior walls.",
+        "Condensed milk exhibits rich natural ivory-beige tint characteristic of slow reduction."
+      ],
+      "concerns": [
+        "High dairy content requires continuous refrigeration under 4°C in tropical heat."
+      ],
+      "positive_indicators": [
+        "Ingredients dispensed directly from chilled stainless steel containers.",
+        "No synthetic neon red colorants; natural nannari herbal syrup tones evident.",
+        "Thick textured malai scoop holds structural shape without weeping excess liquid."
+      ],
+      "recommendations": [
+        "Consume immediately upon serving while cold to enjoy optimal mouthfeel and dairy freshness.",
+        "Verify that the seller maintains ice blocks in insulated chests rather than floor racks."
+      ],
+      "confidence": "High visual clarity",
+      "limitations": [
+        "Purity of badam pisin gum and absence of adulterated starches require biochemical testing.",
+        "Water source used for freezing cannot be visually verified."
+      ],
+      "created_at": "2026-09-18T01:04:44.796Z"
+    }
+  ],
+  "chat_messages": [
+    {
+      "id": "msg_1789708060625_2yw92",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "இந்த உணவு fresh-ஆ இருக்கா?",
+      "created_at": "2026-09-18T05:07:40.625Z"
+    },
+    {
+      "id": "msg_1789708083792_n644t",
+      "user_id": "user_demo_01",
+      "role": "assistant",
+      "message": "வணக்கம்! FoodLens AI பார்வையில் உணவுத் தரம் மற்றும் சுகாதார வழிகாட்டல்:\n\nசாலையோர உணவுக் கடைகளில் சமைத்த உணவுகள் தூசி, புகை மற்றும் பூச்சிகள் படாமல் நன்கு மூடப்பட்டிருக்க வேண்டும். பரிமாறும் பாத்திரங்கள் சுத்தமான தட்டுகளில் வைக்கப்பட வேண்டும்.\n\nபரிந்துரை: உணவு மூடப்பட்டிருக்கும் கடைகளிலும், பரிமாறுபவர் கரண்டி அல்லது கையுறை பயன்படுத்துகிறார்களா என்பதையும் பார்த்து வாங்கவும்.\n\nமுக்கிய குறிப்பு: இது புகைப்படங்கள் மற்றும் பார்வையில் தெரியும் தன்மைகளை அடிப்படையாகக் கொண்ட பொதுவான வழிகாட்டல் மட்டுமே; ஆய்வக அல்லது இரசாயன பரிசோதனை அல்ல.",
+      "created_at": "2026-09-18T05:08:03.792Z"
+    },
+    {
+      "id": "msg_1789708107607_ojt7j",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "What should I check before buying street food?",
+      "created_at": "2026-09-18T05:08:27.607Z"
+    },
+    {
+      "id": "msg_1789708149571_bi6b8",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "What should I check before buying street food?",
+      "created_at": "2026-09-18T05:09:09.571Z"
+    },
+    {
+      "id": "msg_1789708155578_q4q0v",
+      "user_id": "user_demo_01",
+      "role": "assistant",
+      "message": "Hello! Here is FoodLens AI guidance regarding food quality and visible hygiene indicators:\n\nStreet food stalls operating in open ambient environments must maintain continuous coverage over cooked dishes to shield against vehicle dust, industrial particulates, and insect vectors. Clean serving utensils must be stored off bare cart tables.\n\nPractical Advice: Prefer stalls where food containers have secure transparent or stainless covers, vendors use tongs or gloves, and cooking takes place actively on high heat.\n\nResponsible AI Note: This is an AI-assisted visual and general guidance assessment, not a laboratory microbiological or chemical certification.",
+      "created_at": "2026-09-18T05:09:15.578Z"
+    },
+    {
+      "id": "msg_1789708156372_z8uvq",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "What should I check before buying street food?",
+      "created_at": "2026-09-18T05:09:16.372Z"
+    },
+    {
+      "id": "msg_1789708162374_oqfur",
+      "user_id": "user_demo_01",
+      "role": "assistant",
+      "message": "Hello! Here is FoodLens AI guidance regarding food quality and visible hygiene indicators:\n\nStreet food stalls operating in open ambient environments must maintain continuous coverage over cooked dishes to shield against vehicle dust, industrial particulates, and insect vectors. Clean serving utensils must be stored off bare cart tables.\n\nPractical Advice: Prefer stalls where food containers have secure transparent or stainless covers, vendors use tongs or gloves, and cooking takes place actively on high heat.\n\nResponsible AI Note: This is an AI-assisted visual and general guidance assessment, not a laboratory microbiological or chemical certification.",
+      "created_at": "2026-09-18T05:09:22.374Z"
+    },
+    {
+      "id": "msg_1789708171152_7ah45",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "இந்த food-ஐ வாங்கும்போது என்ன கவனிக்கணும்?",
+      "created_at": "2026-09-18T05:09:31.152Z"
+    },
+    {
+      "id": "msg_1789708174048_x4w46",
+      "user_id": "user_demo_01",
+      "role": "assistant",
+      "message": "வணக்கம்! FoodLens AI பார்வையில் உணவுத் தரம் மற்றும் சுகாதார வழிகாட்டல்:\n\nசாலையோர உணவுக் கடைகளில் சமைத்த உணவுகள் தூசி, புகை மற்றும் பூச்சிகள் படாமல் நன்கு மூடப்பட்டிருக்க வேண்டும். பரிமாறும் பாத்திரங்கள் சுத்தமான தட்டுகளில் வைக்கப்பட வேண்டும்.\n\nபரிந்துரை: உணவு மூடப்பட்டிருக்கும் கடைகளிலும், பரிமாறுபவர் கரண்டி அல்லது கையுறை பயன்படுத்துகிறார்களா என்பதையும் பார்த்து வாங்கவும்.\n\nமுக்கிய குறிப்பு: இது புகைப்படங்கள் மற்றும் பார்வையில் தெரியும் தன்மைகளை அடிப்படையாகக் கொண்ட பொதுவான வழிகாட்டல் மட்டுமே; ஆய்வக அல்லது இரசாயன பரிசோதனை அல்ல.",
+      "created_at": "2026-09-18T05:09:34.049Z"
+    }
+  ]
+}

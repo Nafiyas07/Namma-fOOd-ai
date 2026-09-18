@@ -1,0 +1,72 @@
+import { FoodSample } from '../types.js';
+
+export const FOOD_SAMPLES: FoodSample[] = [
+  {
+    id: 'sample-biryani',
+    name: 'Hyderabadi Dum Biryani',
+    category: 'Restaurant food',
+    location: 'Chennai Central',
+    foodType: 'Restaurant food',
+    note: 'Freshly served steaming handi with basmati rice, mint garnish, and boiled egg',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sample-dosa',
+    name: 'Crispy Masala Dosa & Sambar',
+    category: 'South Indian',
+    location: 'Madurai Tiffin Stall',
+    foodType: 'Traditional/local foods',
+    note: 'Golden fermented rice-lentil crepe with potato masala and trio of fresh chutneys',
+    imageUrl: 'https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=800&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sample-jigarthanda',
+    name: 'Madurai Famous Jigarthanda',
+    category: 'Beverages',
+    location: 'Madurai Street Stand',
+    foodType: 'Beverages',
+    note: 'Traditional chilled cooling drink with badam pisin almond gum, basundi milk, and malai scoop',
+    imageUrl: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sample-panipuri',
+    name: 'Street-Side Pani Puri',
+    category: 'Street food',
+    location: 'Bustling Market Cart',
+    foodType: 'Street food',
+    note: 'Hollow crisp puris filled with spiced potato mash and mint tamarind water',
+    imageUrl: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sample-fruits',
+    name: 'Fresh Seasonal Fruit Salad',
+    category: 'Fruits and vegetables',
+    location: 'Organic Cafe',
+    foodType: 'Fruits and vegetables',
+    note: 'Freshly sliced mango, pomegranate seeds, and kiwi arranged in chilled ceramic bowl',
+    imageUrl: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80',
+  },
+  {
+    id: 'sample-samosa',
+    name: 'Artisanal Baked Samosas',
+    category: 'Snacks',
+    location: 'Heritage Bakery',
+    foodType: 'Bakery items',
+    note: 'Spiced vegetable filling with flaky pastry crust and coriander chutney',
+    imageUrl: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=800&auto=format&fit=crop&q=80',
+  },
+];
+
+export const FOOD_CATEGORIES = [
+  { id: 'all', label: 'All Categories', count: 11 },
+  { id: 'Street food', label: 'Street Food', icon: 'Store' },
+  { id: 'Restaurant food', label: 'Restaurant Food', icon: 'Utensils' },
+  { id: 'Home-cooked food', label: 'Home-Cooked Food', icon: 'Home' },
+  { id: 'Snacks', label: 'Snacks & Bites', icon: 'Cookie' },
+  { id: 'Desserts', label: 'Desserts & Sweets', icon: 'Cake' },
+  { id: 'Beverages', label: 'Beverages & Juices', icon: 'Coffee' },
+  { id: 'Packaged food', label: 'Packaged Food', icon: 'Package' },
+  { id: 'Bakery items', label: 'Bakery Items', icon: 'Wheat' },
+  { id: 'Fruits and vegetables', label: 'Fruits & Vegetables', icon: 'Apple' },
+  { id: 'Traditional/local foods', label: 'Traditional / Local', icon: 'Sparkles' },
+];

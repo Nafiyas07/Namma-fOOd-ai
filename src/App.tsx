@@ -101,7 +101,7 @@ function MainApp() {
                   <div className="w-1.5 h-1.5 rounded-full bg-[#114232]" />
                 </div>
                 <span className="font-editorial text-xl font-semibold text-[#1C1E1D]">
-                  FOODLENS AI
+                  Namma fOOd-AI
                 </span>
               </div>
               <p className="text-xs text-[#6E8576]">
@@ -141,10 +141,10 @@ function MainApp() {
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-[#114232]" />
               <span>
-                FoodLens AI evaluates visible characteristics from photography. It is not a laboratory microbiological or chemical certification.
+                Namma fOOd-AI evaluates visible characteristics from photography. It is not a laboratory microbiological or chemical certification.
               </span>
             </div>
-            <span>© {new Date().getFullYear()} FoodLens AI. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} Namma fOOd-AI. All rights reserved.</span>
           </div>
         </div>
       </footer>

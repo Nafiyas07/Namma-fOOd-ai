@@ -112,7 +112,7 @@ CRITICAL RESPONSIBLE AI MANDATES:
           },
           config: {
             systemInstruction:
-              'You are FoodLens AI, an objective scientific food intelligence and visual assessment system. You evaluate visible hygiene, presentation quality, and serving conditions from images across all global and local food categories. You strictly avoid medical or chemical certainty and follow responsible AI principles.',
+              'You are Namma fOOd-AI, an objective scientific food intelligence and visual assessment system. You evaluate visible hygiene, presentation quality, and serving conditions from images across all global and local food categories. You strictly avoid medical or chemical certainty and follow responsible AI principles.',
             responseMimeType: 'application/json',
             responseSchema: {
               type: Type.OBJECT,
@@ -269,7 +269,7 @@ function generateContextualFallbackAnalysis(context: {
     practicalTips,
     confidence: 'Moderate confidence — based on visible optical characteristics',
     limitations: [
-      'FoodLens AI evaluates visible characteristics from an image. It cannot confirm chemical, microbial, or laboratory-level food safety.',
+      'Namma fOOd-AI evaluates visible characteristics from an image. It cannot confirm chemical, microbial, or laboratory-level food safety.',
       'Hidden ingredients, allergens, and internal core temperature cannot be verified through visual analysis alone.',
     ],
   };
@@ -299,7 +299,7 @@ export async function answerAssistantQuery(
         .map((h) => `${h.role === 'user' ? 'User' : 'Assistant'}: ${h.message}`)
         .join('\n');
 
-      const systemPrompt = `You are "FoodLens Assistant", a specialized consumer food safety, quality, and hygiene intelligence assistant.
+      const systemPrompt = `You are "Namma fOOd-AI Assistant", a specialized consumer food safety, quality, and hygiene intelligence assistant.
 You support both English and Tamil (தமிழ்).
 Preferred response language: ${preferredLanguage === 'ta' ? 'Tamil (தமிழ்)' : 'English'}.
 
@@ -338,7 +338,7 @@ ${ragContext}`;
   const topKnowledge = retrievedEntries[0];
 
   if (isTamilQuery) {
-    const answer = `வணக்கம்! FoodLens AI பார்வையில் உணவுத் தரம் மற்றும் சுகாதார வழிகாட்டல்:
+    const answer = `வணக்கம்! Namma fOOd-AI பார்வையில் உணவுத் தரம் மற்றும் சுகாதார வழிகாட்டல்:
 
 ${topKnowledge ? `${topKnowledge.tamilContent}\n\nபரிந்துரை: ${topKnowledge.practicalGuidanceTa}` : 'உணவு வாங்கும்போது அது சுத்தமாக மூடப்பட்டிருக்கிறதா, சூடாக ஆவி பறக்க பரிமாறப்படுகிறதா, மற்றும் பரிமாறும் பாத்திரங்கள் சுத்தமாக உள்ளனவா என்பதை கவனிக்கவும்.'}
 
@@ -346,7 +346,7 @@ ${topKnowledge ? `${topKnowledge.tamilContent}\n\nபரிந்துரை: $
     return { answer, sources };
   }
 
-  const answer = `Hello! Here is FoodLens AI guidance regarding food quality and visible hygiene indicators:
+  const answer = `Hello! Here is Namma fOOd-AI guidance regarding food quality and visible hygiene indicators:
 
 ${topKnowledge ? `${topKnowledge.content}\n\nPractical Advice: ${topKnowledge.practicalGuidance}` : 'When assessing food quality, inspect whether dishes remain properly covered, are served at appropriate hot/cold temperatures, and are handled with clean utensils.'}
 

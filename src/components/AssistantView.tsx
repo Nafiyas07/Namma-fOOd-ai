@@ -35,8 +35,8 @@ export const AssistantView: React.FC<AssistantViewProps> = ({ initialPrompt }) =
       id: 'welcome_1',
       role: 'assistant',
       content: language === 'ta'
-        ? 'வணக்கம்! நான் FoodLens AI உதவியாளர். உணவு சுகாதாரம், தரம் மற்றும் வாங்கும் போது கவனிக்க வேண்டியவை பற்றி என்னிடம் நீங்கள் தமிழிலோ அல்லது ஆங்கிலத்திலோ கேட்கலாம்.'
-        : 'Welcome! I am FoodLens Assistant. Ask me anything about visible food hygiene, fresh food indicators, or precautions when buying street and restaurant food.',
+        ? 'வணக்கம்! நான் Namma fOOd-AI உதவியாளர். உணவு சுகாதாரம், தரம் மற்றும் வாங்கும் போது கவனிக்க வேண்டியவை பற்றி என்னிடம் நீங்கள் தமிழிலோ அல்லது ஆங்கிலத்திலோ கேட்கலாம்.'
+        : 'Welcome! I am Namma fOOd-AI Assistant. Ask me anything about visible food hygiene, fresh food indicators, or precautions when buying street and restaurant food.',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);

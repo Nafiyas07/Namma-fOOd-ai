@@ -54,7 +54,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
             </div>
             <div>
               <span className="font-editorial text-2xl font-semibold tracking-wide text-[#1C1E1D] block leading-none">
-                FOODLENS <span className="font-sans text-xs uppercase tracking-widest text-[#114232] font-bold ml-1">AI</span>
+                Namma <span className="font-sans text-xl font-bold tracking-tight text-[#114232]">fOOd-AI</span>
               </span>
               <span className="text-[11px] text-[#6E8576] tracking-wider uppercase font-medium mt-1 block">
                 {t('tagline')}

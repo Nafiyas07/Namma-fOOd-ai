@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true, limit: '25mb' }));
 app.get('/api/health', (req: Request, res: Response) => {
   res.json({
     status: 'ok',
-    service: 'FoodLens AI Platform',
+    service: 'Namma fOOd-AI Platform',
     timestamp: new Date().toISOString(),
     aiEngine: process.env.GEMINI_API_KEY ? 'Gemini 3.8 Flash Active' : 'Heuristic Engine (Dev Mode)',
   });
@@ -343,7 +343,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`FoodLens AI Server operational on port ${PORT}`);
+    console.log(`Namma fOOd-AI Server operational on port ${PORT}`);
   });
 }
 

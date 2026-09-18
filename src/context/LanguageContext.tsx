@@ -90,8 +90,8 @@ export const translations: Translations = {
     ta: 'வரம்புகள்',
   },
   limitationsNote: {
-    en: 'FoodLens AI evaluates visible characteristics from an image. It cannot confirm chemical, microbial, or laboratory-level food safety.',
-    ta: 'FoodLens AI புகைப்படத்தில் தெரியும் வெளிப்புறத் தன்மைகளை மட்டுமே மதிப்பீடு செய்கிறது. இது இரசாயன அல்லது நுண்ணுயிர் ஆய்வக பரிசோதனைக்கு சமமானதல்ல.',
+    en: 'Namma fOOd-AI evaluates visible characteristics from an image. It cannot confirm chemical, microbial, or laboratory-level food safety.',
+    ta: 'Namma fOOd-AI புகைப்படத்தில் தெரியும் வெளிப்புறத் தன்மைகளை மட்டுமே மதிப்பீடு செய்கிறது. இது இரசாயன அல்லது நுண்ணுயிர் ஆய்வக பரிசோதனைக்கு சமமானதல்ல.',
   },
   analyzeAnother: {
     en: 'Analyze another',
@@ -106,8 +106,8 @@ export const translations: Translations = {
     ta: 'பகிர்க',
   },
   assistantName: {
-    en: 'FoodLens Assistant',
-    ta: 'FoodLens உதவியாளர்',
+    en: 'Namma fOOd-AI Assistant',
+    ta: 'Namma fOOd-AI உதவியாளர்',
   },
   emptyHistoryTitle: {
     en: 'Your food story starts here.',

@@ -78,7 +78,7 @@ export const AuthModal: React.FC = () => {
             </div>
           </div>
           <h2 className="font-editorial text-2xl font-semibold text-[#1C1E1D]">
-            {authModalTab === 'login' ? 'Welcome to FoodLens AI' : 'Create Your Account'}
+            {authModalTab === 'login' ? 'Welcome to Namma fOOd-AI' : 'Create Your Account'}
           </h2>
           <p className="text-xs text-[#6E8576] mt-1">
             {authModalTab === 'login'

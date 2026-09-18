@@ -185,6 +185,20 @@
       "role": "assistant",
       "message": "வணக்கம்! FoodLens AI பார்வையில் உணவுத் தரம் மற்றும் சுகாதார வழிகாட்டல்:\n\nசாலையோர உணவுக் கடைகளில் சமைத்த உணவுகள் தூசி, புகை மற்றும் பூச்சிகள் படாமல் நன்கு மூடப்பட்டிருக்க வேண்டும். பரிமாறும் பாத்திரங்கள் சுத்தமான தட்டுகளில் வைக்கப்பட வேண்டும்.\n\nபரிந்துரை: உணவு மூடப்பட்டிருக்கும் கடைகளிலும், பரிமாறுபவர் கரண்டி அல்லது கையுறை பயன்படுத்துகிறார்களா என்பதையும் பார்த்து வாங்கவும்.\n\nமுக்கிய குறிப்பு: இது புகைப்படங்கள் மற்றும் பார்வையில் தெரியும் தன்மைகளை அடிப்படையாகக் கொண்ட பொதுவான வழிகாட்டல் மட்டுமே; ஆய்வக அல்லது இரசாயன பரிசோதனை அல்ல.",
       "created_at": "2026-09-18T05:09:34.049Z"
+    },
+    {
+      "id": "msg_1789710256499_osokt",
+      "user_id": "user_demo_01",
+      "role": "user",
+      "message": "hello",
+      "created_at": "2026-09-18T05:44:16.499Z"
+    },
+    {
+      "id": "msg_1789710262507_z9w85",
+      "user_id": "user_demo_01",
+      "role": "assistant",
+      "message": "Hello! Here is Namma fOOd-AI guidance regarding food quality and visible hygiene indicators:\n\nStreet food stalls operating in open ambient environments must maintain continuous coverage over cooked dishes to shield against vehicle dust, industrial particulates, and insect vectors. Clean serving utensils must be stored off bare cart tables.\n\nPractical Advice: Prefer stalls where food containers have secure transparent or stainless covers, vendors use tongs or gloves, and cooking takes place actively on high heat.\n\nResponsible AI Note: This is an AI-assisted visual and general guidance assessment, not a laboratory microbiological or chemical certification.",
+      "created_at": "2026-09-18T05:44:22.507Z"
     }
   ]
 }

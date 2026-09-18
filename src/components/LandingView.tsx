@@ -236,7 +236,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
           <div className="max-w-3xl mb-12">
             <span className="text-xs uppercase font-bold tracking-widest text-[#114232]">Visual Analysis Scope</span>
             <h2 className="font-editorial text-3xl sm:text-4xl font-normal text-[#1C1E1D] mt-2">
-              What FoodLens AI evaluates in your food photo
+              What Namma fOOd-AI evaluates in your food photo
             </h2>
             <p className="text-sm text-[#6E8576] mt-3">
               We extract actionable signals strictly from visible characteristics, avoiding unsubstantiated claims.
@@ -311,7 +311,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
               Clear boundaries. Absolute scientific honesty.
             </h2>
             <p className="text-xs sm:text-sm text-[#2C302E]/80 leading-relaxed">
-              FoodLens AI provides an <strong>AI-assisted visual assessment</strong> of visible food presentation, containers, and visible hygiene cues. Photographs cannot detect chemical adulterants, bacterial strains, invisible microbial toxins, or guaranteed authenticity.
+              Namma fOOd-AI provides an <strong>AI-assisted visual assessment</strong> of visible food presentation, containers, and visible hygiene cues. Photographs cannot detect chemical adulterants, bacterial strains, invisible microbial toxins, or guaranteed authenticity.
             </p>
             <div className="pt-2 flex flex-wrap items-center gap-x-6 gap-y-2 text-[11px] text-[#6E8576]">
               <span>• Not a laboratory certification</span>

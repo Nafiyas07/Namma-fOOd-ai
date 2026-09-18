@@ -32,7 +32,7 @@ export const HowItWorksView: React.FC = () => {
       num: '02',
       title: 'Analyze',
       subtitle: 'Multimodal Processing',
-      desc: 'The FoodLens visual reasoning pipeline processes image textures, container boundaries, steam/condensation, cleanliness indicators, and ingredient exposure using multimodal vision models.',
+      desc: 'The Namma fOOd-AI visual reasoning pipeline processes image textures, container boundaries, steam/condensation, cleanliness indicators, and ingredient exposure using multimodal vision models.',
       icon: BrainCircuit,
     },
     {
@@ -131,7 +131,7 @@ export const HowItWorksView: React.FC = () => {
           Technical Architecture & Methodology
         </h1>
         <p className="text-sm text-[#6E8576] mt-3">
-          Explore how FoodLens AI bridges computer vision, contextual food science, and responsible multimodal reasoning.
+          Explore how Namma fOOd-AI bridges computer vision, contextual food science, and responsible multimodal reasoning.
         </p>
       </div>
 
@@ -272,7 +272,7 @@ export const HowItWorksView: React.FC = () => {
                 Vision + Audio + Text + Domain Knowledge Fusion
               </h2>
               <p className="text-xs sm:text-sm text-[#6E8576] mt-2 leading-relaxed">
-                Future iterations of FoodLens AI synthesize visual inspection with live cooking audio (boiling, frying acoustics) and bilingual voice interactions in Tamil and English.
+                Future iterations of Namma fOOd-AI synthesize visual inspection with live cooking audio (boiling, frying acoustics) and bilingual voice interactions in Tamil and English.
               </p>
             </div>
 

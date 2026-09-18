@@ -37,13 +37,13 @@ export const ResultView: React.FC<ResultViewProps> = ({
   const [savedToast, setSavedToast] = useState(false);
 
   const handleShare = () => {
-    const summaryText = `FoodLens AI Insight for ${analysis.foodName} (${analysis.foodCategory}):\n` +
+    const summaryText = `Namma fOOd-AI Insight for ${analysis.foodName} (${analysis.foodCategory}):\n` +
       `Overall Visual Score: ${analysis.overallScore}/100\n` +
       `Hygiene Indicators: ${analysis.hygieneScore}/100\n` +
       `Visual Quality: ${analysis.visualQualityScore}/100\n` +
       `Serving Condition: ${analysis.servingConditionScore}/100\n` +
       `Primary Tip: ${analysis.practicalTips[0] || 'Consume while fresh.'}\n\n` +
-      `AI-assisted visual assessment via FoodLens AI.`;
+      `AI-assisted visual assessment via Namma fOOd-AI.`;
 
     navigator.clipboard.writeText(summaryText);
     setCopiedToast(true);
